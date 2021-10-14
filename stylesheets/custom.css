@@ -1,0 +1,151 @@
+@font-face {
+  font-family : 'BebasNeue';
+  font-weight : bold;
+  font-style: normal;
+  src : url(/fonts/BebasNeue-Bold.otf);
+}
+
+@font-face {
+  font-family : 'BebasNeue';
+  font-weight : 200;
+  font-style: normal;
+  src : url(/fonts/BebasNeue-Light.otf);
+}
+body, p, li {
+  font-family: "Open Sans";
+  line-height: 1.9;
+  font-size: 15px;
+}
+
+.spaced {
+  margin-top:32px;
+  margin-bottom:32px;
+}
+.ui.header, h1, h2, h3, h4, h5 {
+  font-family: "BebasNeue";
+}
+
+.calm {
+  font-family: "Open Sans"
+}
+
+.white{
+  color:#fff;
+}
+h2.ui.header {
+  font-size: 2.3rem;
+  margin-bottom:52px;
+  font-weight: normal !important;
+}
+h3.ui.header{
+  font-size: 1.8rem;
+}
+.bigger{
+  font-weight: bold !important;
+  font-size: 2.4em !important;
+}
+.ui.inverted.menu .toc{
+  display: none;
+}
+.hidden.menu {
+  display: none;
+}
+
+.masthead.segment {
+  min-height: 700px;
+  padding: 1em 0em;
+}
+.masthead .logo.item img {
+  margin-right: 1em;
+}
+.masthead .ui.menu .ui.button {
+  margin-left: 0.5em;
+}
+.masthead h1.ui.header {
+  padding-top: 4em;
+  margin-bottom: 0em;
+  font-size: 4em;
+  font-weight: normal;
+  text-shadow: 2px 2px 2px #000;
+}
+.masthead h2 {
+  font-size: 1.57em;
+  font-family: "Open Sans";
+  font-weight: lighter;
+  color:#fff;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.lede{
+  font-size:220% !important;
+  font-weight:bold !important;
+  text-shadow: 2px 2px 2px #000;
+}
+.shadowed{
+  text-shadow: 2px 2px 2px #000;
+}
+.ui.vertical.stripe p + h3 {
+  margin-top: 1em;
+}
+.ui.vertical.stripe .floated.image {
+  clear: both;
+}
+
+.ui.vertical.stripe .horizontal.divider {
+  margin: 1em 0em;
+}
+
+.quote.stripe.segment {
+  padding: 0em;
+}
+.quote.stripe.segment .grid .column {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.footer.segment {
+  padding: 5em 0em;
+}
+
+.secondary.pointing.menu .toc.item {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .ui.inverted.menu .item {
+    display: none !important;
+  }
+  .ui.inverted.menu .logo{
+    display: block !important;
+  }
+  .ui.inverted.menu .toc{
+    display: block !important;
+    padding-top:19px;
+  }
+  .ui.sidebar.menu .item{
+    display: block !important;
+  }
+  .toc.item {
+    display: block;
+  }
+  .masthead.segment {
+    min-height: 350px;
+  }
+  .masthead h1.ui.header {
+    font-size: 2em;
+    margin-top: 3em;
+  }
+  .masthead h2 {
+    margin-top: 2em;
+    font-size: 1.5em;
+  }
+}
+
+#imposter-splash {
+  background: url(/images/imposter_bg.jpg) no-repeat center center fixed;
+  min-height: 620px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
